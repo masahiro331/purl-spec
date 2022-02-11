@@ -323,9 +323,9 @@ including container images built by Docker and others:
   - ``tag``: artifact tag that may have been associated with the digest at the time
 - Examples::
 
-      pkg:oci/debian@sha256:<digest>?repository_url=docker.io/library/debian&arch=amd64&tag=latest
-      pkg:oci/debian@sha256:<digest>?repository_url=ghcr.io/debian&tag=bullseye
-      pkg:oci/static@sha256:<digest>?repository_url=gcr.io/distroless/static&tag=latest
+      pkg:oci/debian@sha256:<digest>?repository_url=docker.io%2Flibrary%2Fdebian&arch=amd64&tag=latest
+      pkg:oci/debian@sha256:<digest>?repository_url=ghcr.io%2Fdebian&tag=bullseye
+      pkg:oci/static@sha256:<digest>?repository_url=gcr.io%2Fdistroless%2Fstatic&tag=latest
       pkg:oci/hello-wasm@sha256:<digest>?tag=v1
 
 pypi
